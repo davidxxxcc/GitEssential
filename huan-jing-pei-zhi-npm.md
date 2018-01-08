@@ -63,7 +63,7 @@ $ npm ls -g    # 列出/use/local目錄下的 Module
 更新 Module：
 
 ```
-$ npm update express
+$ npm update <Module Name>
 ```
 
 搜尋 Module：
@@ -75,7 +75,7 @@ $ npm search <Module Name>
 移除 Module：
 
 ```
-$ npm search <Module Name>
+$ npm uninstall <Module Name>
 ```
 
 
