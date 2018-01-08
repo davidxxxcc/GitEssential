@@ -1,6 +1,6 @@
-> # 安裝NPM
+# 安裝npm
 
-NPM，全名為**N**ode**P**ackage**M**anager，是 Node.js 的套件（package）管理工具，安裝 npm 後，使用
+npm，全名為**N**ode**P**ackage**M**anager，是 Node.js 的套件（package）管理工具，安裝 npm 後，使用
 
 `npm install <module_name>`指令即可安裝新套件，維護管理套件的工作會更加輕鬆。
 
@@ -16,6 +16,10 @@ $ npm -v
 ```
 
 如果顯示版本編號即是安裝完成。
+
+## 使用 npm 命令安装Module {#使用-npm-命令安装模块}
+
+
 
 npm 不僅可用於安裝新的套件，它也支援搜尋模組：
 
