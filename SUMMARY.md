@@ -11,7 +11,7 @@
 ## Node.js
 
 * [Node.js 簡介](chapter1.md)
-* [開發環境](kai-fa-huan-jing.md)
+* [環境配置](kai-fa-huan-jing.md)
 
 ## HTML&CSS
 
