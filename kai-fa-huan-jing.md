@@ -18,6 +18,10 @@ Mac系統也可以輸入:
 
 > ### 安裝NPM
 
+NPM, Node Package Manager．
+
+
+
 
 
 
