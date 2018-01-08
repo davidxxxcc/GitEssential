@@ -11,7 +11,9 @@
 ## Node.js
 
 * [Node.js 簡介](chapter1.md)
-* [環境配置](kai-fa-huan-jing.md)
+* [環境配置 - Node.js](kai-fa-huan-jing.md)
+* [環境配置 - NPM](huan-jing-pei-zhi-npm.md)
+* [環境配置 - IDE](huan-jing-pei-zhi-ide.md)
 
 ## HTML&CSS
 
