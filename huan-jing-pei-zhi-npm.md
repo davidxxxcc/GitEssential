@@ -1,4 +1,4 @@
-> ### 安裝NPM
+> # 安裝NPM
 
 NPM，全名為**N**ode**P**ackage**M**anager，是 Node.js 的套件（package）管理工具，安裝 npm 後，使用
 

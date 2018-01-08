@@ -1,4 +1,4 @@
-> ### 整合開發環境
+> # IDE
 
 #### Visual Studio Code
 
