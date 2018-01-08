@@ -36,7 +36,7 @@ npm install express      # local  本地安装
 npm install express -g   # global 全域安装
 ```
 
-其差別在於 
+其差別在於
 
 ——  local  本地安裝
 
@@ -51,13 +51,32 @@ npm install express -g   # global 全域安装
 
 # 常用指令
 
-npm 不僅可用於安裝新的套件，它也支援搜尋模組：
+npm 不僅可用於安裝新的套件，以下列出部分常用指令。
+
+列出已安裝模組：
+
+```
+$ npm ls       # 列出當前目錄下的 Module
+$ npm ls -g    # 列出/use/local目錄下的 Module
+```
+
+更新 Module：
+
+```
+$ npm update express
+```
+
+搜尋 Module：
 
 ```
 $ npm search <Module Name>
 ```
 
-列出已安裝模組：
+移除 Module：
 
-更新模組：
+```
+$ npm search <Module Name>
+```
+
+
 
