@@ -29,11 +29,33 @@ $ npm install <Module Name>
 $ npm install express
 ```
 
+# local 本地安裝 與 global 全域安裝
 
+```
+npm install express      # local  本地安装
+npm install express -g   # global 全域安装
+```
 
+其差別在於 
 
+——  local  本地安裝
+
+1. 將Module安裝於現在目錄下的/node\_module資料夾內，如果離開此目錄，即失效。
+2. 可使用require\(\)，載入Module。
+
+—— global 全域安裝
+
+1. 將Module安裝於 _**/usr/local**_ 。
+2. 可以直接在_**Command Line**_使用。
+3. 不可使用require\(\)，載入Module。
+
+# 常用指令
 
 npm 不僅可用於安裝新的套件，它也支援搜尋模組：
+
+```
+$ npm search <Module Name>
+```
 
 列出已安裝模組：
 
