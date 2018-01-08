@@ -19,6 +19,18 @@ $ npm -v
 
 ## 使用 npm 命令安装Module {#使用-npm-命令安装模块}
 
+```
+$ npm install <Module Name>
+```
+
+（不需輸入&lt;&gt;）將欲安裝的Module名稱替換，例如：
+
+```
+$ npm install express
+```
+
+
+
 
 
 npm 不僅可用於安裝新的套件，它也支援搜尋模組：
