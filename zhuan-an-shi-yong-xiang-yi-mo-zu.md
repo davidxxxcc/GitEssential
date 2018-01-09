@@ -9,16 +9,12 @@
     "ejs": "~2.5.7",
     "express": "~4.15.5",
     "express-session": "^1.15.6",
-    "mongodb": "^2.2.33",
-    "mongoose": "^4.13.5",
     "morgan": "~1.9.0",
     "multer": "^1.3.0",
     "mysql": "^2.15.0",
     "node-schedule": "^1.2.5",
     "serve-favicon": "~2.4.5",
-    "session": "^0.1.0",
-    "uuid": "^3.1.0",
-    "yargs": "^10.0.3"
+    "uuid": "^3.1.0"
   }
 ```
 
