@@ -34,5 +34,5 @@
 
 ## 網站配置
 
-* GCP
+* [GCP](wang-zhan-pei-zhi/gcp.md)
 
