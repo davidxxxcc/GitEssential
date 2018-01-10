@@ -9,7 +9,15 @@
 _**www**_
 
 ```
+.....
 
+
+// # 設定 port 為 3000,
+
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+.....
 ```
 
 _**app.js**_
@@ -59,6 +67,4 @@ ajax.js
 本主題Demo Code位址：
 
 [https://github.com/kingchenkong/NodejsPractice/tree/master/express/20171117\_OKR\_PostLogin](https://github.com/kingchenkong/NodejsPractice/tree/master/express/20171117_OKR_PostLogin)
-
-
 
