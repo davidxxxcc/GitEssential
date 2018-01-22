@@ -35,4 +35,5 @@
 ## 網站配置
 
 * [GCP](wang-zhan-pei-zhi/gcp.md)
+* [Git](git.md)
 
