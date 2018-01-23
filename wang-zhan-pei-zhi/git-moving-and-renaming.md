@@ -12,7 +12,13 @@ Now you will notice that Git will treat this action as delete _first\_file.txt_
 
 Therefore, we can add primary\_\_file.txt on stage and remove first\_\_file.txt using follwing command
 
+`git add primary_file.txt`
 
+`git rm first_file.txt`
 
 ![](/assets/addRevmoe)
+
+Let's check the git status again
+
+
 
