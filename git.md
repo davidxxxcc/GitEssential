@@ -18,6 +18,12 @@ Check status of git
 
 ![](/assets/import7.png)
 
+if new file is added
+
+`git status`
+
+![](/assets/import8.png)
+
 ![](/assets/import3.png)
 
 `git add`
