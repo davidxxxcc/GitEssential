@@ -1,4 +1,4 @@
-This chapter illustrate how to add file to git
+# This chapter illustrate how to add file to git
 
 Check status of git
 
@@ -6,7 +6,9 @@ Check status of git
 
 ![](/assets/import7.png)
 
-if new file is added
+### Now let's manually add two files in our working directory 
+
+check git status
 
 `git status`
 
@@ -20,14 +22,11 @@ As we can see, now seond\_\_file.text is on stage while third\_\_file.text is st
 
 `git status`
 
-![](/assets/import9.png)  
-
+![](/assets/import9.png)
 
 Now we want to commit second\_file.text
 
 `git commit -m "Add second file to project"`
 
 ![](/assets/import10.png)
-
-
 
