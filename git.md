@@ -1,4 +1,4 @@
-This chapter illustrate the concept of git command line
+This chapter illustrate the environmental setup and concept of git command line
 
 Download and Install Git
 
