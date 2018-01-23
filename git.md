@@ -1,14 +1,20 @@
-This chapter illustrate the environmental setup and concept of git command line
+# This chapter illustrate the environmental setup and concept of git command line
 
-Download and Install Git
 
-![](/assets/gitdownload)
+
+### Download and Install Git
+
+### ![](/assets/gitdownload)
 
 you can access the link to see how to install
 
 [https://www.youtube.com/watch?v=rWboGsc6CqI!\[\]\(/assets/download](https://www.youtube.com/watch?v=rWboGsc6CqI![]%28/assets/download)
 
-Git-2.16.0.2-64-bit.exe
+
+
+
+
+### Execute Git-2.16.0.2-64-bit.exe
 
 Right click on the working directory and select Git Bash Here to start![](/assets/OpenGitBash)
 
@@ -38,7 +44,7 @@ To see the history we can use
 
 ![](/assets/gitLog.png)
 
-Git concept
+### Git concept and right way to write commit message
 
 ![](/assets/import3.png)
 
