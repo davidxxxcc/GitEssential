@@ -16,5 +16,13 @@ Let stage all the files
 
 `git add .`
 
+Or if you want to stage specified file you can
+
+`git add first_file.text`
+
+In this case, we stage all of the files
+
+![](/assets/stageAll)
+
 
 
