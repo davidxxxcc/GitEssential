@@ -1,4 +1,4 @@
-This chapter shows how to moving and renaming files on Git
+# This chapter shows how to moving and renaming files on Git
 
 Let's say if we want to rename first\_\_file1.txt to primary\_\_file.txt
 
