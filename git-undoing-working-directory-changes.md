@@ -16,7 +16,11 @@ If you put something into the staging area that you don't want there, you can ta
 
 `git reset HEAD resource.html`
 
+![](/assets/3)
 
+
+
+Amending commits
 
 
 
