@@ -1,3 +1,5 @@
+This chapter illustrate how to add file to git 
+
 
 
 Check status of git
