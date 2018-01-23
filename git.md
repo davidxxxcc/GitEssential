@@ -26,6 +26,8 @@ if new file is added
 
 Let's say if we only want to stage one file
 
+As we can see, now seond\__file.text is on stage while third\__file.text is still untracked.
+
 `git add second_file.text`
 
 `git status`
