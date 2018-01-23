@@ -37,4 +37,5 @@
 * [GCP](wang-zhan-pei-zhi/gcp.md)
 * [Git- Introduction](git.md)
 * [Git- Add File](wang-zhan-pei-zhi/git-add-file.md)
+* [Git- Edit File](wang-zhan-pei-zhi/git-edit-file.md)
 
