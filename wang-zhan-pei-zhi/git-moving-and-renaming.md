@@ -30,7 +30,13 @@ Another way to rename file to using move command
 
 If we want to rename second\_\_file.txt to secondary\_\_file.txt
 
-`git mv second_`_`file.txt secondary_`_`file.txt`
+`git mv second_file.txt secondary_file.txt`
 
 ![](/assets/move)
+
+Let's check git status again
+
+
+
+
 
