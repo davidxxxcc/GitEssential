@@ -1,7 +1,5 @@
 # This chapter shows how to moving and renaming files on Git
 
-
-
 ### Let's say if we want to rename first\_\_file1.txt to primary\_\_file.txt
 
 ![](/assets/rename)
@@ -42,13 +40,25 @@ Let's check git status again
 
 ![](/assets/mvStatus)
 
-
-
 ### Let's move _third\_file.txt to first\_directory_ folder
 
-first, create a first\_directory folder
+firstly, create a first\_directory folder
 
 ![](/assets/createFolder)
+
+
+
+`git mv thirdfile.txt firstdirectory/third_file.txt`
+
+`git status`
+
+![](/assets/moveResults)
+
+
+
+
+
+
 
 
 
