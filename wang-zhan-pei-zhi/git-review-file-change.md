@@ -20,6 +20,14 @@ We can specified one file to review the difference
 
 ![](/assets/gitDiffOneFile)
 
+Highlight the amend section
+
+`git diff color-words contact.html`
+
+![](/assets/hightlint.png)
+
+
+
 On stage directory
 
 Let's say we edit first\_file.txt and we want to check where we amend the texts
@@ -27,4 +35,8 @@ Let's say we edit first\_file.txt and we want to check where we amend the texts
 `git diff --staged`
 
 ![](/assets/gitDiffStaged)
+
+
+
+
 
