@@ -26,3 +26,15 @@ Now git realize that it's a rename action
 
 ![](/assets/checkagain)
 
+
+
+Another way to rename file to using move command
+
+If we want to rename second\__file.txt to secondary\__file.txt
+
+
+
+
+
+![](/assets/move)
+
