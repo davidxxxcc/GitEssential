@@ -24,6 +24,14 @@ if new file is added
 
 ![](/assets/import8.png)
 
+Let's say if we only want to stage one file
+
+`git add second_file.text`
+
+`git status`
+
+![](/assets/import9.png)
+
 ![](/assets/import3.png)
 
 `git add`
