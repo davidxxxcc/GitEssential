@@ -36,7 +36,7 @@ If we want to rename second\_\_file.txt to secondary\_\_file.txt
 
 Let's check git status again
 
-
+git status
 
 
 
