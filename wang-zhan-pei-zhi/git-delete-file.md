@@ -20,7 +20,7 @@ Now we need to tell git that \_file\_to\_delete1 \_has been deleted
 
 `git rm file_to_delete1`
 
-\(below just demo _file\_to\_delete3_\)
+\(below just demo using file _file\_to\_delete3_\)
 
 ![](/assets/gitdelete2)
 
