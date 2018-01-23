@@ -6,9 +6,7 @@ Git-2.16.0.2-64-bit.exe
 
 Right click on the working directory and select Git Bash Here to start![](/assets/OpenGitBash)
 
-Open Git 
 
-![](/assets/import3.png)
 
 Check current file path
 
@@ -35,6 +33,12 @@ To see the history we can use
 `git log`
 
 ![](/assets/gitLog.png)
+
+
+
+Git concept
+
+![](/assets/import3.png)
 
 ![](/assets/import.png)![](/assets/import2.png)
 
