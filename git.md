@@ -14,25 +14,31 @@ Check current file path
 
 ![](/assets/import6.png)
 
-
-
-
-
-
+To start a git in current directory
 
 `git init`
 
-To start a git in current directory
 
-`git add .`
 
 To track all files
 
-`git commit -m "XXOOOXX"`
+`git add .`
+
+
 
 To comment file
 
 `-m`stand for add commit message
+
+`git commit -m "XXOOOXX"`
+
+
+
+To see the history we can use 
+
+`git log`
+
+![](/assets/gitLog.png)
 
 ![](/assets/import.png)![](/assets/import2.png)
 
