@@ -26,3 +26,13 @@ In this case, we stage all of the files
 
 And let's commit these files.
 
+`git commit -m "Make change to first, second and third files"`
+
+![](/assets/commitAll)
+
+
+
+
+
+
+
