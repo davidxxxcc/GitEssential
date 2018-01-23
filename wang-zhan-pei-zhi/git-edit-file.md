@@ -32,7 +32,11 @@ And let's commit these files.
 
 
 
+Done!
 
+Let's check the git status
 
+Awesome!
 
+![](/assets/checkGit)
 
