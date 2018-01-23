@@ -28,3 +28,9 @@ So all the way down the chain every single Git object will have to be changed ju
 
 `git commit --amend -m "Adjust list items"`
 
+
+
+### Reverting a commit
+
+
+
