@@ -12,7 +12,9 @@ Check working place status
 
 Now you can see three files are marked with red and not stage for commit
 
-let stage all the files
+Let stage all the files
 
 `git add .`
+
+
 
