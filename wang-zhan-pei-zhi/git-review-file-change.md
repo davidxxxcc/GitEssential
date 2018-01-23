@@ -12,5 +12,7 @@ If we also amend third\_file.txt and check again
 
 ![](/assets/gitDiffAll)
 
+We can specified one file to review the difference
+
 
 
