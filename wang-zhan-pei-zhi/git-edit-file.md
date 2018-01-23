@@ -24,5 +24,5 @@ In this case, we stage all of the files
 
 ![](/assets/stageAll)
 
-
+And let's commit these files.
 
