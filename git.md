@@ -1,6 +1,6 @@
 This chapter illustrate the use of git command line
 
-Download and Install Git 
+Download and Install Git
 
 Git-2.16.0.2-64-bit.exe
 
@@ -10,9 +10,13 @@ Check current file path
 
 `pwd`
 
-
-
 ![](/assets/import6.png)
+
+Check status of git
+
+`git status`
+
+
 
 ![](/assets/import3.png)
 
