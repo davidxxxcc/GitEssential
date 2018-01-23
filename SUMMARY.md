@@ -38,5 +38,6 @@
 * [Git- Introduction](git.md)
 * [Git- Add File](wang-zhan-pei-zhi/git-add-file.md)
 * [Git- Edit File](wang-zhan-pei-zhi/git-edit-file.md)
+* [Git- Delete File](wang-zhan-pei-zhi/git-delete-file.md)
 * [Git- Review File Change ](wang-zhan-pei-zhi/git-review-file-change.md)
 
