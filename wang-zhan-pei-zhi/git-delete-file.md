@@ -10,17 +10,19 @@ Stage and commit these two files
 
 `git commit -m "Adding 'red shirt' files"`
 
-Now if we manually delete _file\_to\_delete1 _and check git status again
+Now if we manually delete \_file\_to\_delete1 \_and check git status again
 
 `git status`
 
 ![](/assets/gitDeleteManually)
 
-Now we need to tell git that _file\_to\_delete1 _has been deleted
-
-`git rm file_to_delete1`
 
 
 
 
+Now we need to tell git that \_file\_to\_delete3 \_has been deleted
+
+`git rm file_to_delete3`
+
+![](/assets/gitdelete2)
 
