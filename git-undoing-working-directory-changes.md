@@ -32,7 +32,7 @@ So all the way down the chain every single Git object will have to be changed ju
 
 What the Revert command will do is it will take all of the changes that were there, and it will flip them around. It will do the exact opposite of those changes.
 
+`95bede780b1342c3b880b `is the commit you want to reverse
+
 `git revert 95bede780b1342c3b880b`
-
-
 
