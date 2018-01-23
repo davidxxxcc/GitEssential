@@ -8,9 +8,21 @@ Open Git
 
 ![](/assets/import3.png)
 
+Check current file path
+
+`pwd`
+
+![](/assets/import6.png)
+
+
+
+
+
+
+
 `git init`
 
-To start a git in current directory 
+To start a git in current directory
 
 `git add .`
 

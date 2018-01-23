@@ -1,8 +1,4 @@
-Check current file path
 
-`pwd`
-
-![](/assets/import6.png)
 
 Check status of git
 
