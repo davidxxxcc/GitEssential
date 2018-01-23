@@ -2,9 +2,11 @@ This chapter illustrate the concept of git command line
 
 Download and Install Git
 
+![](/assets/gitdownload)
+
 you can access the link to see how to install
 
-https://www.youtube.com/watch?v=rWboGsc6CqI![](/assets/download)
+[https://www.youtube.com/watch?v=rWboGsc6CqI!\[\]\(/assets/download](https://www.youtube.com/watch?v=rWboGsc6CqI![]%28/assets/download)
 
 Git-2.16.0.2-64-bit.exe
 
