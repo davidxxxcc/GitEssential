@@ -10,9 +10,11 @@ Let's say if we accidentally delete part of text on \_index.html \_and we want t
 
 ![](/assets/1)
 
-
-
 ### Unstaging files
+
+If you put something into the staging area that you don't want there, you can take it out by using git reset HEAD, and the status message will help you remember that.
+
+`git reset HEAD resource.html`
 
 
 
