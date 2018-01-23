@@ -4,5 +4,5 @@ Let's say if we accidentally delete part of text and we want to recover from cop
 
 `git checkout -- index.html`
 
-
+![](/assets/1)
 
