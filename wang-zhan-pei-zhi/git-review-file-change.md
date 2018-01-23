@@ -1,8 +1,8 @@
-This chapter illustrates how to review file changes.
+# This chapter illustrates how to review file changes.
 
 On working directory
 
-Let's say we edit first\_file.txt and we want to check where we amend the texts
+### Let's say we edit first\_file.txt and we want to check where we amend the texts
 
 `git diff`
 

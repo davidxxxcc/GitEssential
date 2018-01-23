@@ -35,6 +35,9 @@
 ## 網站配置
 
 * [GCP](wang-zhan-pei-zhi/gcp.md)
+
+## Git
+
 * [Git- Introduction](git.md)
 * [Git- Add File](wang-zhan-pei-zhi/git-add-file.md)
 * [Git- Edit File](wang-zhan-pei-zhi/git-edit-file.md)
