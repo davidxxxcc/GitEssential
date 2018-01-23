@@ -8,6 +8,10 @@ Open Git
 
 ![](/assets/import3.png)
 
+`git init`
+
+To start a git in current directory 
+
 `git add .`
 
 To track all files
@@ -16,11 +20,7 @@ To track all files
 
 To comment file
 
-`-m `stand for add commit message
-
-
-
-
+`-m`stand for add commit message
 
 ![](/assets/import.png)![](/assets/import2.png)
 
