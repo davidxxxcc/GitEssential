@@ -6,3 +6,7 @@ Let's say we have three different files and now we make some text change on thes
 
 
 
+Check working place status
+
+`git status`
+
