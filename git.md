@@ -2,11 +2,13 @@ This chapter illustrate the concept of git command line
 
 Download and Install Git
 
+you can access the link to see how to install
+
+https://www.youtube.com/watch?v=rWboGsc6CqI![](/assets/download)
+
 Git-2.16.0.2-64-bit.exe
 
 Right click on the working directory and select Git Bash Here to start![](/assets/OpenGitBash)
-
-
 
 Check current file path
 
@@ -33,8 +35,6 @@ To see the history we can use
 `git log`
 
 ![](/assets/gitLog.png)
-
-
 
 Git concept
 
