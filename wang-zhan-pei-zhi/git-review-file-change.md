@@ -22,7 +22,7 @@ We can specified one file to review the difference
 
 Highlight the amend section
 
-`git diff color-words contact.html`
+`git diff --color-words contact.html`
 
 ![](/assets/hightlint.png)
 
