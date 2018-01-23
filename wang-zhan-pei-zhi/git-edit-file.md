@@ -1,6 +1,6 @@
-This chapter shows how to edit and commit file on Git
+# This chapter shows how to edit and commit file on Git
 
-Let's say we have three different files and now we make some text change on these files.
+### Let's say we have three different files and now we make some text changes on these files.
 
 ![](/assets/file)
 
@@ -29,8 +29,6 @@ And let's commit these files.
 `git commit -m "Make change to first, second and third files"`
 
 ![](/assets/commitAll)
-
-
 
 Done!
 
