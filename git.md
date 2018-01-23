@@ -16,7 +16,7 @@ Check status of git
 
 `git status`
 
-
+![](/assets/import7.png)
 
 ![](/assets/import3.png)
 
