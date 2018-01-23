@@ -20,5 +20,13 @@ If you put something into the staging area that you don't want there, you can ta
 
 ### Amending commits
 
+ if we make a change to this, even if we just change the commit message, it's going to change that SHA to be something different, and if that SHA becomes something different, well, now the parent of snapshot C will need to be changed as well, because it needs to point to something different. And if we change the parent of snapshot C, well then when we run it through the algorithm it's going to come up with a different SHA as well.
+
+So all the way down the chain every single Git object will have to be changed just because we've made a change earlier down the line. Well, if completely broken the integrity of the data that's in Git. So Git doesn't want us to do that. However, it is possible for us just to change the last commit, because nothing depends on it yet. So the most recent commit the commit that HEAD points to we do have the ability to edit. Once we've tacked another on to the end of that we can't edit in anymore, but the one at the end is still editable, and we can do that using the amend option.
+
 ![](/assets/4)
+
+`git commit --amend -m "Adjust list items"`
+
+
 
