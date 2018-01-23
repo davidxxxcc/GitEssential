@@ -2,6 +2,10 @@
 
 Let's say if we accidentally delete part of text and we want to recover from copying repo to working directory
 
+![](/assets/2)
+
+
+
 `git checkout -- index.html`
 
 ![](/assets/1)
