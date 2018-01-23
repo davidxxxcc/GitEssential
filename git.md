@@ -4,7 +4,9 @@ Download and Install Git
 
 Git-2.16.0.2-64-bit.exe
 
-Open Git
+Right click on the working directory and select Git Bash Here to start![](/assets/OpenGitBash)
+
+Open Git 
 
 ![](/assets/import3.png)
 
@@ -18,13 +20,9 @@ To start a git in current directory
 
 `git init`
 
-
-
 To track all files
 
 `git add .`
-
-
 
 To comment file
 
@@ -32,9 +30,7 @@ To comment file
 
 `git commit -m "XXOOOXX"`
 
-
-
-To see the history we can use 
+To see the history we can use
 
 `git log`
 
