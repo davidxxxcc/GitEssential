@@ -14,9 +14,7 @@ If we also amend third\_file.txt and check again
 
 We can specified one file to review the difference
 
-git diff first\_file.txt
+`git diff first_file.txt`
 
 ![](/assets/gitDiffOneFile)
-
-
 
