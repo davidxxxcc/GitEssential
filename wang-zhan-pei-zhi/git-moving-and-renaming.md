@@ -20,5 +20,9 @@ Therefore, we can add primary\_\_file.txt on stage and remove first\_\_file.txt 
 
 Let's check the git status again
 
+`git status`
 
+Now git realize that it's a rename action
+
+![](/assets/checkagain)
 
