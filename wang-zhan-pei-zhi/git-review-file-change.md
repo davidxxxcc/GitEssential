@@ -26,7 +26,7 @@ Highlight the amend section
 
 ![](/assets/hightlint.png)
 
-Also, you can stage the file and commit at once using following command
+Also, you can stage the file and commit at the same time using following command
 
 `git commit -am`
 
@@ -39,6 +39,4 @@ Let's say we edit first\_file.txt and we want to check where we amend the texts
 `git diff --staged`
 
 ![](/assets/gitDiffStaged)
-
-
 
