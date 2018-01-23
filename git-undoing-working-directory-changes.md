@@ -18,9 +18,7 @@ If you put something into the staging area that you don't want there, you can ta
 
 ![](/assets/3)
 
+### Amending commits
 
-
-Amending commits
-
-
+![](/assets/4)
 
