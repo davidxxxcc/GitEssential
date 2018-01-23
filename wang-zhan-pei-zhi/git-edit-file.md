@@ -4,9 +4,13 @@ Let's say we have three different files and now we make some text change on thes
 
 ![](/assets/file)
 
-
-
 Check working place status
 
 `git status`
+
+![](/assets/checkStatus)
+
+Now you can see three files are marked with red and not stage for commit
+
+
 
