@@ -38,6 +38,16 @@ To see the history we can use
 
 ![](/assets/gitLog.png)
 
+To see where HEAD is referring to
+
+`cat .git/HEAD`
+
+### ![](/assets/HEAD)
+
+To see the 
+
+![](/assets/HEADHASH)
+
 ### Git concept and better way to write commit message
 
 ![](/assets/import3.png)

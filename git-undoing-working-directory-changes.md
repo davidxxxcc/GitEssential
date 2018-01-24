@@ -38,6 +38,16 @@ What the Revert command will do is it will take all of the changes that were the
 
 ### Using reset to undo commits
 
+It's also very dangerous. The command that we're going to be using is git reset. What git reset does is it allows us to specify where the HEAD pointer should point to. 
+
+* soft
+  * Soft is going to move the HEAD pointer to the specified commit, and it's not going to change the staging index, or the working directory at the same time. It's just going to move the pointer. It's the safest of all these options, that's why it's called soft. Just a soft reset, move the pointer and do nothing else. 
+* mixed
+  *  This is in between soft and hard which is why it's called mixed, and it is the default. What it does is it moves the HEAD pointer to the specified commit, and it also changes the staging index to match the repository.
+  * It does not change your working directory though. So, at this point, the staging index and the repository will be set in one place, our working directory, though, has all those changes that we've made. All the things that were in later versions of the repository are still in our working directory.
+* hard
+  * And then the last one is the most destructive of all, and that is hard. A hard reset will not only move the pointer of the repository, but it will make your staging index and your working directory match that as well.
+
 ![](/assets/reset)
 
 
