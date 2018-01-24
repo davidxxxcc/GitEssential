@@ -81,7 +81,11 @@ then these files still exist on working directory but not add in Git
 
 You can remove the untracked files using clean command
 
-### 
+then these files will be deleted on working directory and not add in Git as well
+
+`git clean -g`
+
+### ![](/assets/clean2)
 
 
 
