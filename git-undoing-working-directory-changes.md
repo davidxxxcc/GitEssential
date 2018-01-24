@@ -73,11 +73,15 @@ junk1.txt, junk2.txt and junk3.txt
 
 You can untrack the files using clean command
 
-then these files still exist on working directory but not add in Git
+then these files still exist on working directory but not add in Git if they don't exist on repository.
 
 `git clean -n`
 
 ![](/assets/clean1)
+
+
+
+![](/assets/clean3)
 
 You can remove the untracked files using clean command
 
