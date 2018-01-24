@@ -30,7 +30,7 @@
 
 ## JavaScript
 
-* [JavaScript](javascript/javascript.md)
+* [JavaScript- Basics](javascript/javascript.md)
 
 ## 網站配置
 
