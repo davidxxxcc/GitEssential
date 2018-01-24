@@ -30,6 +30,7 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 
 * ### Arrays
 * `var names = ['John', 'Jane', 'Mark'];`
+* `var years =new Array(1990, 1969, 1948); `
 
 
 
