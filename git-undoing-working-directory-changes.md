@@ -38,6 +38,10 @@ What the Revert command will do is it will take all of the changes that were the
 
 ### Using reset to undo commits
 
+Chinese version
+
+https://dotblogs.com.tw/wasichris/2016/04/29/225157
+
 It's also very dangerous. The command that we're going to be using is git reset. What git reset does is it allows us to specify where the HEAD pointer should point to.
 
 * soft
