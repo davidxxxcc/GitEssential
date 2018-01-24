@@ -1,5 +1,11 @@
 # This chapter illustrate the environmental setup and concept of git command line
 
+Chinese version
+
+https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md
+
+
+
 ### Download and Install Git
 
 ### ![](/assets/gitdownload)
@@ -44,7 +50,9 @@ To see where HEAD is referring to
 
 ### ![](/assets/HEAD)
 
-To see the 
+To see the
+
+`cat .git/refs/heads/master`
 
 ![](/assets/HEADHASH)
 
