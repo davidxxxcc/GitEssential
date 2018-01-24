@@ -54,11 +54,16 @@ It's also very dangerous. The command that we're going to be using is git reset.
   * `git reset --mixed da38660bbcd206a`
   * ![](/assets/mixed)
 * hard
+
   * And then the last one is the most destructive of all, and that is hard. A hard reset will not only move the pointer of the repository, but it will make your staging index and your working directory match that as well.
   * `git reset --hard da38660bbcd206a9aaa4b`
   * ![](/assets/hard)![](/assets/hard2)
 
   ### Git reset summary
 
-![](/assets/reset)
+### ![](/assets/reset)Remove untracked files
+
+### 
+
+
 
