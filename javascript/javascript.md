@@ -4,7 +4,12 @@
 
 JavaScript is one of the three core technologies of web development\(HTML5, CSS, and JavaScript.\)
 
-
-
 ![](/assets/introduction1)
+
+### Two way to write JavaScript
+
+* Inline script
+* external link script
+
+
 
