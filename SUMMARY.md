@@ -31,6 +31,7 @@
 ## JavaScript
 
 * [JavaScript- Basics](javascript/javascript.md)
+  * [JavaScript- How JavaScript Works](javascript/javascript/javascript-how-javascript-works.md)
 
 ## 網站配置
 
