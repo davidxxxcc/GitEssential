@@ -2,9 +2,7 @@
 
 Chinese version
 
-https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md
-
-
+[https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md)
 
 ### Download and Install Git
 
@@ -50,7 +48,7 @@ To see where HEAD is referring to
 
 ### ![](/assets/HEAD)
 
-To see the
+To see the commit hash ID
 
 `cat .git/refs/heads/master`
 
