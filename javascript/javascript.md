@@ -26,7 +26,7 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 * ### expression
 * is to produce value immediate
 
-* var someFun = `function(par) {`
+* `var someFun = function(par) {`
 
   `//code`
 
