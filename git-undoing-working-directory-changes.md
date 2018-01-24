@@ -69,9 +69,17 @@ Add three files that you don't want to track
 
 junk1.txt, junk2.txt and junk3.txt
 
-
-
 ![](/assets/untracked)
+
+You can untrack the files using clean command
+
+then these files still exist on working directory but not add in Git
+
+`git clean -n`
+
+![](/assets/clean1)
+
+You can remove the untracked files using clean command
 
 ### 
 
