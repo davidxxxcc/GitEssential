@@ -87,9 +87,7 @@ Everything we declare in the global object will automatically get attach to wind
 
 `console.log(this);`
 
-`console.log(2016 - this.yearOfBirth);`
-
-`  
+`console.log(2016 - this.yearOfBirth);  
 `
 
 `function innerFunction() {`
