@@ -8,11 +8,25 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator\_Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
-
-
 ### Different between statement and expression
 
-* ### 
+* ### statement
+* to do some action to perform something
+
+* ### `function someFun(par) {`
+
+  ### `//code`
+
+  ### `}`
+
+* ### expression
+* is to produce value immediate
+
+* ### var someFun = `function(par) {`
+
+  ### `  //code  `
+
+  ###    `}`
 
 
 
