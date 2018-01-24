@@ -107,3 +107,53 @@ innerFunction\(\) is a regular functoin since calculateAge is just a expression
 
 ![](/assets/JS-5)
 
+
+
+### Method borrow
+
+`var john = {`
+
+`    name: 'John',`
+
+`    yearOfBirth: 1990,`
+
+`    calculateAge: function() {`
+
+`        console.log(this);`
+
+`        console.log(2016 - this.yearOfBirth);`
+
+`        function innerFunction() {`
+
+`            console.log(this);`
+
+`        }`
+
+`        innerFunction();`
+
+`    }`
+
+`}`
+
+``
+
+`john.calculateAge();`
+
+``
+
+`var mike = {`
+
+`    name: 'Mike',`
+
+`    yearOfBirth: 1984`
+
+`};`
+
+``
+
+`mike.caulateAge = john.calculateAge;`
+
+`mike.caulateAge();`
+
+![](/assets/JS-6)
+
