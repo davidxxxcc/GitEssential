@@ -12,7 +12,9 @@ a = b = 5;
 
 with the expected result that`a`and`b`get the value 5. This is because the assignment operator returns the value that is assigned. First,`b`is set to 5. Then the`a`is also set to 5, the return value of`b = 5`, aka right operand of the assignment.
 
-### The following table is ordered from highest \(20\) to lowest \(1\) precedence.
+### 
+
+The following table is ordered from highest \(20\) to lowest \(1\) precedence.
 
 | Precedence | Operator type | Associativity | Individual operators |
 | :--- | :--- | :--- | :--- |
@@ -75,6 +77,8 @@ with the expected result that`a`and`b`get the value 5. This is because the assig
 | 2 | [yield](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield) | right-to-left | `yield …` |
 |  |  | [yield\*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*) | `yield* …` |
 | 1 | [Comma / Sequence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator) | left-to-right | `… , …` |
+
+
 
 
 
