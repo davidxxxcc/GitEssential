@@ -61,7 +61,17 @@ It's also very dangerous. The command that we're going to be using is git reset.
 
   ### Git reset summary
 
-### ![](/assets/reset)Remove untracked files
+### ![](/assets/reset)
+
+### Remove untracked files
+
+Add three files that you don't want to track
+
+junk1.txt, junk2.txt and junk3.txt
+
+
+
+![](/assets/untracked)
 
 ### 
 
