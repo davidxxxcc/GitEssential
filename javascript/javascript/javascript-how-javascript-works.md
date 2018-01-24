@@ -77,6 +77,10 @@ Everything we declare in the global object will automatically get attach to wind
 
 ### ![](/assets/JS-4)Code demo:
 
+As we can see, innerFunction\(\) is called and console.log windows object.
+
+innerFunction\(\) is a regular functoin since calculateAge is just a expression
+
 `var john = {`
 
 `name: 'John',`
@@ -87,8 +91,7 @@ Everything we declare in the global object will automatically get attach to wind
 
 `console.log(this);`
 
-`console.log(2016 - this.yearOfBirth);  
-`
+`console.log(2016 - this.yearOfBirth);`
 
 `function innerFunction() {`
 
