@@ -36,11 +36,9 @@ What the Revert command will do is it will take all of the changes that were the
 
 `git revert 95bede780b1342c3b880b`
 
-
-
 ### Using reset to undo commits
 
-
+![](/assets/reset)
 
 
 
