@@ -75,29 +75,32 @@ Everything we declare in the global object will automatically get attach to wind
 
 ## This
 
-![](/assets/JS-4)`var john = {`
+### ![](/assets/JS-4)Code demo:
 
-`    name: 'John',`
+`var john = {`
 
-`    yearOfBirth: 1990,`
+`name: 'John',`
 
-`    calculateAge: function() {`
+`yearOfBirth: 1990,`
 
-`        console.log(this);`
+`calculateAge: function() {`
 
-`        console.log(2016 - this.yearOfBirth);`
+`console.log(this);`
 
-`        `
+`console.log(2016 - this.yearOfBirth);`
 
-`        function innerFunction() {`
+`  
+`
 
-`            console.log(this);`
+`function innerFunction() {`
 
-`        }`
+`console.log(this);`
 
-`        innerFunction();`
+`}`
 
-`    }`
+`innerFunction();`
+
+`}`
 
 `}`
 
