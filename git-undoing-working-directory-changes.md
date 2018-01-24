@@ -40,7 +40,7 @@ What the Revert command will do is it will take all of the changes that were the
 
 Chinese version
 
-https://dotblogs.com.tw/wasichris/2016/04/29/225157
+[https://dotblogs.com.tw/wasichris/2016/04/29/225157](https://dotblogs.com.tw/wasichris/2016/04/29/225157)
 
 It's also very dangerous. The command that we're going to be using is git reset. What git reset does is it allows us to specify where the HEAD pointer should point to.
 
@@ -55,6 +55,8 @@ It's also very dangerous. The command that we're going to be using is git reset.
   * ![](/assets/mixed)
 * hard
   * And then the last one is the most destructive of all, and that is hard. A hard reset will not only move the pointer of the repository, but it will make your staging index and your working directory match that as well.
+  * `git reset --hard da38660bbcd206a9aaa4b`
+  * ![](/assets/hard)![](/assets/hard2)
 
 ![](/assets/reset)
 
