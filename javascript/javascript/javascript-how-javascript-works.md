@@ -71,15 +71,35 @@ Everything we declare in the global object will automatically get attach to wind
 
 ## Scoping in JavaScript
 
-![](/JavaScript/3)![](/assets/JS-2)![](/assets/JS-3) 
-
-
+![](/JavaScript/3)![](/assets/JS-2)![](/assets/JS-3)
 
 ## This
 
-![](/assets/JS-4)
+![](/assets/JS-4)`var john = {`
 
+`    name: 'John',`
 
+`    yearOfBirth: 1990,`
 
+`    calculateAge: function() {`
 
+`        console.log(this);`
+
+`        console.log(2016 - this.yearOfBirth);`
+
+`        `
+
+`        function innerFunction() {`
+
+`            console.log(this);`
+
+`        }`
+
+`        innerFunction();`
+
+`    }`
+
+`}`
+
+![](/assets/JS-5)
 
