@@ -56,3 +56,5 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 
 `console.log(john.indexOf('Smith'));`
 
+![](/assets/sdf)
+
