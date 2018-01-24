@@ -8,7 +8,11 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator\_Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
-### 
+
+
+### Different between statement and expression
+
+* ### 
 
 
 
