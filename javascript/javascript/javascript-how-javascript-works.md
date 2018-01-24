@@ -18,6 +18,8 @@ Everything we declare in the global object will automatically get attach to wind
 
 ![](https://lh5.googleusercontent.com/Mr2SfS88TAVrlaJlaC4oLuiGLf2QD0xyxyAoMJv1_kvXuNiU2qB8qDTeQKteCsKKlz__6pqdv8oRBAhK-5aS-TXuXRzx5BOafS1Ldcjt6NA0bVQq0a61dSurVJfQ3a71ILjWFlEb)
 
+### Code demo:
+
 `calculateAge(1965); //work`
 
 `function calculateAge(year) {`
@@ -43,4 +45,34 @@ Everything we declare in the global object will automatically get attach to wind
 `var age = 23;`
 
 `console.log(age); //work`
+
+
+
+`console.log(age);`
+
+`var age = 23;`
+
+``
+
+`function foo() {`
+
+`    console.log(age);`
+
+`    var age = 65;`
+
+`    console.log(age);`
+
+`}`
+
+`foo();`
+
+`console.log(age);`
+
+![](/assets/123)
+
+
+
+
+
+
 
