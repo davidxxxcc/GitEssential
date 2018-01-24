@@ -79,7 +79,11 @@ then these files still exist on working directory but not add in Git if they don
 
 ![](/assets/clean1)
 
+if you stage junk1.txt and do the clean command again, you will notice that junk1.txt will be excluded of untracking process.
 
+`git add junk1.txt`
+
+`git clean -f`
 
 ![](/assets/clean3)
 
