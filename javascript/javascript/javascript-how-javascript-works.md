@@ -69,19 +69,7 @@ Everything we declare in the global object will automatically get attach to wind
 
 ![](/assets/123)
 
+## Scoping in JavaScript 
 
-
-
-
-
-
-
-
-## Scoping in JavaScript
-
-![](/JavaScript/3)
-
-
-
-
+![](/JavaScript/3)![](/assets/JS-1)
 
