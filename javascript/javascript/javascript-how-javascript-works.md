@@ -46,31 +46,40 @@ Everything we declare in the global object will automatically get attach to wind
 
 `console.log(age); //work`
 
+`console.log(age);`
 
+`var age = 23;`
 
-`console.log(age);`
+`  
+`
 
-`var age = 23;`
+`function foo() {`
 
-``
+`console.log(age);`
 
-`function foo() {`
+`var age = 65;`
 
-`    console.log(age);`
+`console.log(age);`
 
-`    var age = 65;`
+`}`
 
-`    console.log(age);`
+`foo();`
 
-`}`
-
-`foo();`
-
-`console.log(age);`
+`console.log(age);`
 
 ![](/assets/123)
 
 
+
+
+
+
+
+
+
+## Scoping in JavaScript
+
+![](/JavaScript/3)
 
 
 
