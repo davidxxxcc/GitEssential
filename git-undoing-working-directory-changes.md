@@ -58,5 +58,7 @@ It's also very dangerous. The command that we're going to be using is git reset.
   * `git reset --hard da38660bbcd206a9aaa4b`
   * ![](/assets/hard)![](/assets/hard2)
 
+  ### Git reset summary
+
 ![](/assets/reset)
 
