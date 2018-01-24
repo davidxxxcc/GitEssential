@@ -13,20 +13,23 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 * ### statement
 * to do some action to perform something
 
-* ### `function someFun(par) {`
+* `function someFun(par) {`
 
-  ### `//code`
+  `//code`
 
-  ### `}`
+  `}`
 
 * ### expression
 * is to produce value immediate
 
-* ### var someFun = `function(par) {`
+* var someFun = `function(par) {`
 
-  ### `  //code  `
+  `//code`
 
-  ###    `}`
+  `}`
+
+* ### Arrays
+* `var names = ['John', 'Jane', 'Mark'];`
 
 
 
