@@ -1,4 +1,6 @@
-# Introduction
+```
+Introduction
+```
 
 ### JavaScript is a lighweight, cross-platform, object-oriented computer programming language.
 
@@ -32,27 +34,25 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 * `var names = ['John', 'Jane', 'Mark'];`
 * `var years = new Array(1990, 1969, 1948);`
 
-var john = \['John', 'Smith', 1990, 'teacher', false\];
+`var john = ['John', 'Smith', 1990, 'teacher', false];`
 
-console.log\(john\);
+`console.log(john);`
 
-john.push\('blue'\);
+`john.push('blue');`
 
-console.log\(john\);
+`console.log(john);`
 
-john.unshift\('Mr.'\);
+`john.unshift('Mr.');`
 
-console.log\(john\);
+`console.log(john);`
 
-john.pop\(\);
+`john.pop();`
 
-console.log\(john\);
+`console.log(john);`
 
-john.shift\(\);
+`john.shift();`
 
-console.log\(john\);
+`console.log(john);`
 
-console.log\(john.indexOf\('Smith'\)\);
-
-
+`console.log(john.indexOf('Smith'));`
 
