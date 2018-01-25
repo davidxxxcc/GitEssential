@@ -14,45 +14,49 @@
 
 `}`
 
-
-
-
-
 創建 Foo 物件和設定 prototype 中的 x 和 calculate\(\)
 
-`function Foo(y) {`
+`function Foo(y) {`
 
-`  this.y = y;`
+`this.y = y;`
 
-`}`
+`}`
 
-`Foo.prototype.x = 10;`
+`Foo.prototype.x = 10;`
 
-`Foo.prototype.calculate = function (z) {`
+`Foo.prototype.calculate = function (z) {`
 
-`  return this.x + this.y + z;`
+`return this.x + this.y + z;`
 
 `};`
 
 通過 object Foo 的 constructor，創建 instance b:
 
-`var b = new Foo(20);`
+`var b = new Foo(20);`
 
-`b.calculate(30); // 60`
+`b.calculate(30); // 60`
 
-`console.log(`
+`console.log(`
 
-`  b.__proto__ === Foo.prototype, // true`
+`b.__proto__ === Foo.prototype, // true`
 
-`  b.__proto__.calculate === Foo.prototype.calculate // true`
+`b.__proto__.calculate === Foo.prototype.calculate // true`
 
-`  b.__proto__.calculate === b.calculate, // true`
+`b.__proto__.calculate === b.calculate, // true`
 
-`  Foo === b.constructor, // true`
+`Foo === b.constructor, // true`
 
-`  Foo === Foo.prototype.constructor, // true`
+`Foo === Foo.prototype.constructor, // true`
 
 `);`
+
+
+
+正如結果所示, b 物件繼承了 Foo\(\) 的屬性和方法\(method\). “Foo.prototype” 的內建方法 Foo.prototype.constructor 自動化地為 Foo\(\) 創造構建方法.Instances “b” 透過 constructor 把自身的 \_\_protot\_\_ 委任\(delegation\)到 Foo Object 的 prototype:
+
+![](/assets/js-13)
+
+
 
 
 
