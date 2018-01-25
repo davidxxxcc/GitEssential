@@ -34,6 +34,7 @@
   * [JavaScript- How JavaScript Works](javascript/javascript/javascript-how-javascript-works.md)
   * [JavaScript- DOM Manipulation](javascript/javascript/javascript-dom-manipulation.md)
   * [JavaScript- Event](javascript/javascript/javascript-event.md)
+  * [Java- Objects and Functions](javascript/javascript/java-objects-and-functions.md)
 
 ## 網站配置
 

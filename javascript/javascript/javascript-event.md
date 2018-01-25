@@ -2,9 +2,7 @@
 
 Event references:
 
-https://developer.mozilla.org/zh-TW/docs/Web/Events
+[https://developer.mozilla.org/zh-TW/docs/Web/Events](https://developer.mozilla.org/zh-TW/docs/Web/Events)
 
-
-
-![](/assets/js-7)
+![](/assets/js-7) 
 
