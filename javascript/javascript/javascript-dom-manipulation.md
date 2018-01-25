@@ -3,8 +3,9 @@
 ### ![](/assets/js-6)Code demo:
 
 * `querySelector` will select the first DOM.
-* `Math.floor `will discard the decimal of number
+* `Math.floor`will discard the decimal of number
 * `innerHTML can define HTML while textContent can only define text inside HTML`
+* You can define the css using `.style`
 
 `var scores, roundScore, activePlayer, dice;`
 
