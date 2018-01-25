@@ -32,6 +32,7 @@
 
 * [JavaScript- Basics](javascript/javascript.md)
   * [JavaScript- How JavaScript Works](javascript/javascript/javascript-how-javascript-works.md)
+  * [JavaScript- DOM Manipulation](javascript/javascript/javascript-dom-manipulation.md)
 
 ## 網站配置
 
