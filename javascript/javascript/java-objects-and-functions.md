@@ -46,6 +46,14 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 **你有一個叫做DOG的函數，就可以把DOG當作 constructor，利用var obj = new DOG\(\)來 new 出一個DOG的 instance，並且可以在DOG.prototype上面加上你想讓所有 instance 共享的屬性或是方法。**
 
+
+
+順帶一提，每一個 prototype 都會有一個叫做constructor的屬性，例如說Person.prototype.constructor，而這個屬性就會指向構造函數。Person.prototype的構造函數是什麼？當然就是Person囉。
+
+![](/assets/js-14)
+
+
+
 參考資料
 
 [http://www.ruanyifeng.com/blog/2011/06/designing\_ideas\_of\_inheritance\_mechanism\_in\_javascript.html](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
