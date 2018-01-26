@@ -35,6 +35,7 @@
   * [JavaScript- DOM Manipulation](javascript/javascript/javascript-dom-manipulation.md)
   * [JavaScript- Event](javascript/javascript/javascript-event.md)
   * [Java- Object and Prototype](javascript/javascript/java-objects-and-functions.md)
+  * [JavaScript- Object.create](javascript/javascript/javascript-objectcreate.md)
 
 ## 網站配置
 
