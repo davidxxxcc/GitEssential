@@ -42,11 +42,13 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 `alert(dogB.species); // 犬科`
 
+
+
 參考資料
 
 [http://www.ruanyifeng.com/blog/2011/06/designing\_ideas\_of\_inheritance\_mechanism\_in\_javascript.html](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
 
-https://blog.techbridge.cc/2017/04/22/javascript-prototype/
+[https://blog.techbridge.cc/2017/04/22/javascript-prototype/](https://blog.techbridge.cc/2017/04/22/javascript-prototype/)
 
 ## function constructor \(variable starts with capital letter\)
 
