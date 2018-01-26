@@ -3,41 +3,39 @@ The difference between object.create and the function constructor pattern is tha
 * Object.create builds and object that inherits directly from the one that we passed into the first argument
 * Function constructor newly created object inherits from the constructor's protoptye property.
 
+`// Object.create`
+
+`var personProto = {`
+
+`calculateAge: function() {`
+
+`console.log(2016 - this.yearOfBirth);`
+
+`}`
+
+`}`
 
 
-`// Object.create`
 
-`var personProto = {`
+`var john = Object.create(personProto);`
 
-`    calculateAge: function() {`
+`john.name = 'John';`
 
-`    console.log(2016 - this.yearOfBirth);`
+`john.yearOfBirth - 1990;`
 
-`    }`
+`john.job = 'teacher';`
 
-`}`
 
-``
 
-`var john = Object.create(personProto);`
+`var jane = Object.create(personProto,`
 
-`john.name = 'John';`
+`{`
 
-`john.yearOfBirth - 1990;`
+`name: {value: 'Jane'},`
 
-`john.job = 'teacher';`
+`yearOfBirth: { value: 1969 },`
 
-``
-
-`var jane = Object.create(personProto, `
-
-`{`
-
-`    name: {value: 'Jane'},`
-
-`    yearOfBirth: { value: 1969 },`
-
-`    job: { value: 'designer' }`
+`job: { value: 'designer' }`
 
 `});`
 
