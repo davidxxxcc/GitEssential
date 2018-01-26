@@ -42,13 +42,9 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 `alert(dogB.species); // 犬科`
 
-
-
 ## 總結:
 
 **你有一個叫做DOG的函數，就可以把DOG當作 constructor，利用var obj = new DOG\(\)來 new 出一個DOG的 instance，並且可以在DOG.prototype上面加上你想讓所有 instance 共享的屬性或是方法。**
-
-
 
 參考資料
 
@@ -56,7 +52,9 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 [https://blog.techbridge.cc/2017/04/22/javascript-prototype/](https://blog.techbridge.cc/2017/04/22/javascript-prototype/)
 
-## function constructor \(variable starts with capital letter\)
+Another way to set constrcutor
+
+**function constructor \(variable starts with capital letter\)**
 
 `var Person = function(name, yearOfBirth, job) {`
 
