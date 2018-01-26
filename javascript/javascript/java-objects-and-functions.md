@@ -1,12 +1,22 @@
 ## 構造函數\(Constructor\)
 
-在Javascript语言中，new命令后面跟的不是类，而是构造函数。举例来说，现在有一个叫做DOG的构造函数，表示狗对象的原型。
+在Javascript语言中，用来从原型对象生成一个实例对象。但是，Javascript没有"类"，怎么来表示原型对象呢？
 
-`　function DOG(name){`
+new命令后面跟的不是类，而是构造函数，举例来说，现在有一个叫做DOG的构造函数，表示狗对象的原型。
 
-`　　　　this.name = name;`
+`function DOG(name){`
 
-`　　}`
+`this.name = name;`
+
+`}`
+
+对这个构造函数使用new，就会生成一个狗对象的实例。
+
+`var dogA = new DOG('大毛');`
+
+`　　alert(dogA.name); // 大毛`
+
+
 
 这个属性包含一个对象（以下简称"prototype对象"），所有实例对象需要共享的属性和方法，都放在这个对象里面；那些不需要共享的属性和方法，就放在构造函数里面。
 
