@@ -54,6 +54,10 @@ retirement(66)(1990); //40 years left until retirement.
 
 ## Method borrowing \(call, apply and bind\)
 
+### call is to borrow function and set its own property
+
+### apply is almost same as call while apply implement array variable
+
 ```
 var john = {
 name: 'John',
@@ -78,6 +82,19 @@ john.presentation('formal', 'morning');        //Good morning, Ladies and gentle
 
 john.presentation.call(emily, 'friendly','afternoon');        //Hey! What's up? I'm Emily, I'm a designerand I'm 35years old.
 ```
+
+### bind is borrow partial function
+
+```
+var johnFriendly = john.presentation.bind(john, 'friendly');  
+johnFriendly('night');  //Hey! What's up? I'm John, I'm a teacherand I'm 26years old.
+var emilyFormal = john.presentation.bind(emily,'formal');
+emilyFormal('afternoon');   //Good afternoon, Ladies and gentlemen! I'm Emily, I'm a designer and I'm 35years old.
+```
+
+
+
+### 
 
 
 
