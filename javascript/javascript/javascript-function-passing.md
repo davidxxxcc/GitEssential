@@ -46,14 +46,42 @@ return function(yearOfBirth) {
     }
 }
 
-var retirementUS = retirement(66);
+
+var retirementUS = retirement(66);
 retirementUS(1990); //40 years left until retirement.
 retirement(66)(1990); //40 years left until retirement.
 ```
 
 
 
+## Method borrowing
 
+```
+var john = {
+name: 'John',
+age: 26,
+job: 'teacher',
+presentation: function(style, timeOfDay) {
+    if (style === 'formal') {
+        console.log('Good ' + timeOfDay + ', Ladies and gentlemen! I\'m ' + this.name + ', I\'m a ' + this.job + ' and I\'m ' + this.age + 'years old.') ;    
+    } else if (style === 'friendly') {
+        console.log('Hey! What\'s up? I\'m ' + this.name + ', I\'m a ' + this.job + 'and I\'m ' + this.age + 'years old.');
+    }
+    }
+};
+
+var emily = {
+name: 'Emily',
+age: 35,
+job: 'designer'
+};
+
+john.presentation('formal', 'morning');        //Good morning, Ladies and gentlemen! I'm John, I'm a teacher and I'm 26years old.
+
+john.presentation.call(emily, 'friendly','afternoon');        //Hey! What's up? I'm Emily, I'm a designerand I'm 35years old.
+```
+
+ 
 
 
 
