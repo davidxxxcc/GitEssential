@@ -10,18 +10,12 @@ this.name = name;
 }
 ```
 
-
-
 对这个构造函数使用new，就会生成一个狗对象的实例。
 
 ```
 var dogA = new DOG('大毛');
 alert(dogA.name); // 大毛
 ```
-
-
-
-
 
 ## Prototype屬性
 
@@ -33,21 +27,18 @@ alert(dogA.name); // 大毛
 
 现在，species属性放在prototype对象里，是两个实例对象共享的。只要修改了prototype对象，就会同时影响到两个实例对象。
 
-`function DOG(name){`
+```
+function DOG(name){
+this.name = name;
+}
+DOG.prototype = { species : '犬科' };
+var dogA = new DOG('大毛');
+var dogB = new DOG('二毛');
+alert(dogA.species); // 犬科
+alert(dogB.species); // 犬科
+```
 
-`this.name = name;`
 
-`}`
-
-`DOG.prototype = { species : '犬科' };`
-
-`var dogA = new DOG('大毛');`
-
-`var dogB = new DOG('二毛');`
-
-`alert(dogA.species); // 犬科`
-
-`alert(dogB.species); // 犬科`
 
 ## 總結:
 
@@ -67,51 +58,43 @@ alert(dogA.name); // 大毛
 
 **function constructor \(variable starts with capital letter\)**
 
-`var Person = function(name, yearOfBirth, job) {`
+```
+var Person = function(name, yearOfBirth, job) {
+this.name = name;
+this.yearOfBirth = yearOfBirth;
+this.job = job;
+}
+```
 
-`this.name = name;`
 
-`this.yearOfBirth = yearOfBirth;`
-
-`this.job = job;`
-
-`}`
 
 創建 Foo 物件和設定 prototype 中的 x 和 calculate\(\)
 
-`function Foo(y) {`
+```
+function Foo(y) {
+this.y = y;
+}
+Foo.prototype.x = 10;
+Foo.prototype.calculate = function (z) {
+return this.x + this.y + z;
+};
+```
 
-`this.y = y;`
 
-`}`
-
-`Foo.prototype.x = 10;`
-
-`Foo.prototype.calculate = function (z) {`
-
-`return this.x + this.y + z;`
-
-`};`
 
 通過 object Foo 的 constructor，創建 instance b:
 
-`var b = new Foo(20);`
-
-`b.calculate(30); // 60`
-
-`console.log(`
-
-`b.__proto__ === Foo.prototype, // true`
-
-`b.__proto__.calculate === Foo.prototype.calculate // true`
-
-`b.__proto__.calculate === b.calculate, // true`
-
-`Foo === b.constructor, // true`
-
-`Foo === Foo.prototype.constructor, // true`
-
-`);`
+```
+var b = new Foo(20);
+b.calculate(30); // 60
+console.log(
+b.__proto__ === Foo.prototype, // true
+b.__proto__.calculate === Foo.prototype.calculate // true
+b.__proto__.calculate === b.calculate, // true
+Foo === b.constructor, // true
+Foo === Foo.prototype.constructor, // true
+);
+```
 
 ## 原型鍊**\(Prototype chain\)**
 
