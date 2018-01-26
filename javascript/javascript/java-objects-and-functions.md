@@ -4,17 +4,24 @@
 
 new命令后面跟的不是类，而是构造函数，举例来说，现在有一个叫做DOG的构造函数，表示狗对象的原型。
 
-`function DOG(name){`
+```
+function DOG(name) {
+this.name = name;
+}
+```
 
-`this.name = name;`
 
-`}`
 
 对这个构造函数使用new，就会生成一个狗对象的实例。
 
-`var dogA = new DOG('大毛');`
+```
+var dogA = new DOG('大毛');
+alert(dogA.name); // 大毛
+```
 
-`alert(dogA.name); // 大毛`
+
+
+
 
 ## Prototype屬性
 
@@ -46,13 +53,9 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 **你有一個叫做DOG的函數，就可以把DOG當作 constructor，利用var obj = new DOG\(\)來 new 出一個DOG的 instance，並且可以在DOG.prototype上面加上你想讓所有 instance 共享的屬性或是方法。**
 
-
-
 順帶一提，每一個 prototype 都會有一個叫做constructor的屬性，例如說Person.prototype.constructor，而這個屬性就會指向構造函數。Person.prototype的構造函數是什麼？當然就是Person囉。
 
 ![](/assets/js-14)
-
-
 
 參考資料
 
