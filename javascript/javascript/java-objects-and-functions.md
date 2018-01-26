@@ -102,7 +102,7 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 `);`
 
-## 原型**練\(Prototype chain\)**
+## 原型鍊**\(Prototype chain\)**
 
 正如結果所示, b 物件繼承了 Foo\(\) 的屬性和方法\(method\). “Foo.prototype” 的內建方法 Foo.prototype.constructor 自動化地為 Foo\(\) 創造構建方法.  
 Instances “b” 透過 constructor 把自身的 \_\_protot\_\_ 委任\(delegation\)到 Foo Object 的 prototype:
