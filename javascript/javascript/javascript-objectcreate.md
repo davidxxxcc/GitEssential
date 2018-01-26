@@ -2,8 +2,10 @@
 
 The difference between object.create and the function constructor pattern is that
 
-* Object.create builds and object that inherits directly from the one that we passed into the first argument
-* Function constructor newly created object inherits from the constructor's protoptye property.
+*  With object.create\(\) we build a new object that inherits from the object that we passed into the first argument, so basically we can use any object as a prototype
+* While with the function consctructor we can only inherit from the constructor prototype property.
+
+
 
 ![](/assets/js-15)
 
