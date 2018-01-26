@@ -1,6 +1,6 @@
 ## 構造函數\(Constructor\)
 
-在Javascript语言中，用来从原型对象生成一个实例对象。但是，Javascript没有"类"，怎么来表示原型对象呢？
+在Javascript语言中，用来从原型对象\(e.g. function DOG\)生成一个实例对象。但是，Javascript没有"类"，怎么来表示原型对象呢？
 
 new命令后面跟的不是类，而是构造函数，举例来说，现在有一个叫做DOG的构造函数，表示狗对象的原型。
 
