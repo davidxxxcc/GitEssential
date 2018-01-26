@@ -52,7 +52,7 @@ retirementUS(1990); //40 years left until retirement.
 retirement(66)(1990); //40 years left until retirement.
 ```
 
-## Method borrowing
+## Method borrowing \(call, apply and bind\)
 
 ```
 var john = {
