@@ -37,5 +37,23 @@ console.log(score >= 5 - goodLuck);
 
 **An inner function has always access to the variables and parameters of its outer function, even after the outer function has returned.**
 
+```
+function retirement(retirementAge) {
+var a = ' years left until retirement.'; //Outer function
+return function(yearOfBirth) {
+    var age = 2016 - yearOfBirth; //Inner function
+    console.log((retirementAge - age) + a);
+    }
+}
+
+var retirementUS = retirement(66);
+retirementUS(1990); //40 years left until retirement.
+retirement(66)(1990); //40 years left until retirement.
+```
+
+
+
+
+
 
 
