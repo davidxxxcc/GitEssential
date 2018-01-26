@@ -1,6 +1,4 @@
-![](/assets/js-8)![](/assets/js-9)![](/assets/js-10)
 
-![](/assets/js-11)![](/assets/js-12)
 
 这个属性包含一个对象（以下简称"prototype对象"），所有实例对象需要共享的属性和方法，都放在这个对象里面；那些不需要共享的属性和方法，就放在构造函数里面。
 
@@ -8,9 +6,7 @@
 
 參考資料
 
-http://www.ruanyifeng.com/blog/2011/06/designing\_ideas\_of\_inheritance\_mechanism\_in\_javascript.html
-
-
+[http://www.ruanyifeng.com/blog/2011/06/designing\_ideas\_of\_inheritance\_mechanism\_in\_javascript.html](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
 
 ## function constructor \(variable starts with capital letter\)
 
@@ -64,4 +60,14 @@ http://www.ruanyifeng.com/blog/2011/06/designing\_ideas\_of\_inheritance\_mechan
 Instances “b” 透過 constructor 把自身的 \_\_protot\_\_ 委任\(delegation\)到 Foo Object 的 prototype:
 
 ![](/assets/js-13)
+
+  
+
+
+![](blob:file:///bccb5ad5-7f7d-4558-a7a2-75904196481f)
+
+![](blob:file:///1077cbd0-a5c1-4208-afa4-7021297e4c93)
+
+  
+
 
