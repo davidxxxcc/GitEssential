@@ -8,11 +8,15 @@ You can implement the function with following way, this code includes two steps
 
 `interviewQuestion('teacher')('Mark')`
 
-1. `interviewQustion('teacher') `
+1. `interviewQustion('teacher')`
 
 2. anonymous `function(name)`
 
-
-
 ![](/assets/js-23)
+
+
+
+## IIFE \(Immediately Invoked Function Expression\)
+
+
 

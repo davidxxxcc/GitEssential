@@ -34,9 +34,9 @@
   * [JavaScript- How JavaScript Works](javascript/javascript/javascript-how-javascript-works.md)
   * [JavaScript- DOM Manipulation](javascript/javascript/javascript-dom-manipulation.md)
   * [JavaScript- Event](javascript/javascript/javascript-event.md)
-  * [JavaScript- Object and Prototype](javascript/javascript/java-objects-and-functions.md)
+  * [JavaScript- Prototype Chain](javascript/javascript/java-objects-and-functions.md)
   * [JavaScript- Object.create](javascript/javascript/javascript-objectcreate.md)
-  * [JavaScript- Function passing](javascript/javascript/javascript-function-passing.md)
+  * [JavaScript- Function & IIFE](javascript/javascript/javascript-function-passing.md)
 
 ## 網站配置
 
