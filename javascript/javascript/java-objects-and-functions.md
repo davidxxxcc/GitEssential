@@ -24,6 +24,24 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 实例对象一旦创建，将自动引用prototype对象的属性和方法。也就是说，实例对象的属性和方法，分成两种，一种是本地的，另一种是引用的。
 
+`　　function DOG(name){`
+
+`　　　　this.name = name;`
+
+`　　}`
+
+**`DOG.prototype = { species : '犬科' };`**
+
+`  
+　　var dogA = new DOG('大毛');`
+
+`　　var dogB = new DOG('二毛');`
+
+`  
+　　alert(dogA.species); // 犬科`
+
+`　　alert(dogB.species); // 犬科`
+
 參考資料
 
 [http://www.ruanyifeng.com/blog/2011/06/designing\_ideas\_of\_inheritance\_mechanism\_in\_javascript.html](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
