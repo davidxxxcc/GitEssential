@@ -52,8 +52,6 @@ retirementUS(1990); //40 years left until retirement.
 retirement(66)(1990); //40 years left until retirement.
 ```
 
-
-
 ## Method borrowing
 
 ```
@@ -80,8 +78,6 @@ john.presentation('formal', 'morning');        //Good morning, Ladies and gentle
 
 john.presentation.call(emily, 'friendly','afternoon');        //Hey! What's up? I'm Emily, I'm a designerand I'm 35years old.
 ```
-
- 
 
 
 
