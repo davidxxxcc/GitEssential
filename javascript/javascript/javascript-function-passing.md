@@ -33,5 +33,9 @@ console.log(score >= 5 - goodLuck);
 })(5);
 ```
 
+## Closures
+
+**An inner function has always access to the variables and parameters of its outer function, even after the outer function has returned.**
+
 
 
