@@ -17,6 +17,8 @@ The following link is ordered from highest \(20\) to lowest \(1\) precedence.
 * ### statement
 * to do some action to perform something
 
+* What's inside of parenthesis cannot be a statement\( e.g. \(funciton \(\)\) \)
+
 * `function someFun(par) {`
 
   `//code`
