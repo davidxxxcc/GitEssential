@@ -1,4 +1,12 @@
+## 構造函數\(Constructor\)
 
+在Javascript语言中，new命令后面跟的不是类，而是构造函数。举例来说，现在有一个叫做DOG的构造函数，表示狗对象的原型。
+
+`　function DOG(name){`
+
+`　　　　this.name = name;`
+
+`　　}`
 
 这个属性包含一个对象（以下简称"prototype对象"），所有实例对象需要共享的属性和方法，都放在这个对象里面；那些不需要共享的属性和方法，就放在构造函数里面。
 
@@ -61,13 +69,7 @@ Instances “b” 透過 constructor 把自身的 \_\_protot\_\_ 委任\(delegat
 
 ![](/assets/js-13)
 
-  
-
-
 ![](blob:file:///bccb5ad5-7f7d-4558-a7a2-75904196481f)
 
 ![](blob:file:///1077cbd0-a5c1-4208-afa4-7021297e4c93)
-
-  
-
 
