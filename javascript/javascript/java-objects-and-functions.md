@@ -24,23 +24,23 @@ new命令后面跟的不是类，而是构造函数，举例来说，现在有�
 
 实例对象一旦创建，将自动引用prototype对象的属性和方法。也就是说，实例对象的属性和方法，分成两种，一种是本地的，另一种是引用的。
 
-`　　function DOG(name){`
+现在，species属性放在prototype对象里，是两个实例对象共享的。只要修改了prototype对象，就会同时影响到两个实例对象。
 
-`　　　　this.name = name;`
+`function DOG(name){`
 
-`　　}`
+`this.name = name;`
 
-**`DOG.prototype = { species : '犬科' };`**
+`}`
 
-`  
-　　var dogA = new DOG('大毛');`
+`DOG.prototype = { species : '犬科' };`
 
-`　　var dogB = new DOG('二毛');`
+`var dogA = new DOG('大毛');`
 
-`  
-　　alert(dogA.species); // 犬科`
+`var dogB = new DOG('二毛');`
 
-`　　alert(dogB.species); // 犬科`
+`alert(dogA.species); // 犬科`
+
+`alert(dogB.species); // 犬科`
 
 參考資料
 
