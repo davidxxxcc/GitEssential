@@ -1,11 +1,23 @@
 ## The other way to create object in JavaScript is object.create
 
+![](/assets/js-16)
+
 The difference between object.create and the function constructor pattern is that
 
-*  With object.create\(\) we build a new object that inherits from the object that we passed into the first argument, so basically we can use any object as a prototype
+* With object.create\(\) we build a new object that inherits from the object that we passed into the first argument, so basically we can use any object as a prototype
 * While with the function consctructor we can only inherit from the constructor prototype property.
 
+Object.create\(\):
+
+![](/assets/js-18)
 
 
-![](/assets/js-15)
+
+Constructor:
+
+![](/assets/js-19)
+
+
+
+
 
