@@ -1,7 +1,6 @@
-
-
 ```
 (function() {
+
 function Question(question, answers, correct) {
     this.question = question;
     this.answers = answers;
@@ -42,9 +41,9 @@ function Question(question, answers, correct) {
     questions[n].displayQuestion();
     var answer = parseInt(prompt('Please select correct answer.'));
     questions[n].checkAnswer(answer);
- 
+
 })();
 ```
 
-     
+
 
