@@ -1,11 +1,11 @@
 ```
 (function() {
 
-function Question(question, answers, correct) {
-    this.question = question;
-    this.answers = answers;
-    this.correct = correct;
-   }
+    function Question(question, answers, correct) {
+        this.question = question;
+        this.answers = answers;
+        this.correct = correct;
+       }
 
     Question.prototype.displayQuestion = function() {
         console.log(this.question);
