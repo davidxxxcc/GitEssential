@@ -37,6 +37,7 @@
   * [JavaScript- Prototype Chain](javascript/javascript/java-objects-and-functions.md)
   * [JavaScript- Object.create](javascript/javascript/javascript-objectcreate.md)
   * [JavaScript- Function & IIFE](javascript/javascript/javascript-function-passing.md)
+  * [JavaScript- Code Challenge part I](javascript/javascript/javascript-code-challenge-part-i.md)
 
 ## 網站配置
 
