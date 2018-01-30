@@ -38,6 +38,7 @@
   * [JavaScript- Object.create](javascript/javascript/javascript-objectcreate.md)
   * [JavaScript- Function & IIFE](javascript/javascript/javascript-function-passing.md)
   * [JavaScript- Code Challenge part I](javascript/javascript/javascript-code-challenge-part-i.md)
+  * [JavaScript- Structure Modules](javascript/javascript/javascript-structure-modules.md)
 
 ## 網站配置
 
