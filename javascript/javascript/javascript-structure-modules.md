@@ -176,11 +176,11 @@ var updatePercentages = function() {
 
 var ctrlAddItem = function() {
     var input, newItem;
-    
+
     // 1. Get the fieled input data
     input = UICtrl.getInput();
     if(input.description !== "" && !isNaN(input.value) && input.value > 0){
-        
+
         // 2. Add the item to the budget controller
         newItem = budgetCtrl.addItem(input.type, input.description, input.value);
 
@@ -192,14 +192,25 @@ var ctrlAddItem = function() {
 
         // 5. calculate and update budget
         updateBudget();
-        
+
         // 6. Calculate and update percentages
         updatePercentages();
     }
 };
 
-
-
+ return {
+        init: function() {
+            console.log('Applicaation has started.');
+            UICtrl.displayMonth();
+            UICtrl.displayBudget({
+                budget: 0,
+                totalInc: 0,
+                totalExp: 0,
+                percentage: -1
+            });
+            setupEventListeners();
+        }
+}
 ```
 
 ### Demo code on GitHub:
