@@ -135,6 +135,9 @@ return {
         },
         addListItem: function(obj, type) {
                 //some code
+        },
+        deleteListItem: function(selectorID) {
+                //some code
         }
 
 }
