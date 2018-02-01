@@ -8,7 +8,19 @@
 
 ### ![](/assets/js-25)![](/assets/js-29)1. Setup three IIFEs
 
-function budgetController\(\) is model.![](/assets/js-30)
+![](/assets/js-31)
+
+### 2. Data model build up
+
+
+
+
+
+
+
+
+
+
 
 ## 
 
