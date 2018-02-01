@@ -91,9 +91,12 @@ return {
         //some code
     },
     
-
-
-
+    calculateBudget: function() {
+       //some code
+    },
+    .
+    .
+    .
 }
 ```
 
