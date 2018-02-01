@@ -6,9 +6,11 @@
 * ### View: UI module
 * ### Controller: controller module
 
-![](/assets/js-25)![](/assets/js-29)
+### ![](/assets/js-25)![](/assets/js-29)1. Setup three IIFEs
 
+function budgetController\(\) is model.![](/assets/js-30)
 
+## 
 
 ### Demo code on GitHub:
 
