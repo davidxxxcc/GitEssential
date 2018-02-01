@@ -12,7 +12,9 @@
 
 ### 2. Data model build up
 
-Let's set up a constructor `Expense`and `Income`to define every record.
+Let's set up a constructor `Expense`and `Income ` and its prototype method to define every record.
+
+
 
 ```
 // Expense contructor
