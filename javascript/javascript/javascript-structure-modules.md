@@ -119,10 +119,16 @@ var DOMstrings = {
         container: '.container',
         expensesPercLabel: '.item__percentage',
         dateLabel: '.budget__title--month'
-        
+
     };
-    
-    
+var formatNumber = function(num, type) {
+        //some code
+};
+
+return {
+
+}
+
 ```
 
 ### Demo code on GitHub:
