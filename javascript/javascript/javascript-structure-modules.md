@@ -10,9 +10,11 @@
 
 ![](/assets/js-31)
 
-### 2. Data model build up
+### 2. Data model build up in `budgetgetController `
 
 Let's set up a constructor `Expense`and `Income` and its prototype method to define every record.
+
+`data `object collect all types of data including `exp[] `and `inc[]`.
 
 ```
 // Expense contructor
@@ -42,10 +44,33 @@ var Income = function(id, description, value) {
     this.value = value;
 };
 
+//Data object
+var data = {
+    allItems: {
+        exp:[],
+        inc:[]
+    },
+    totals: {
+        exp: 0,
+        inc: 0
+    },
+    budget: 0,
+    percentage: -1
+};
 
+var calculateTotal = function(type) {
+    var sum = 0;
+    data.allItems[type].forEach(function(cur) {
+       sum += cur.value; 
+    });
+    data.totals[type] = sum;
+};
+    
 ```
 
-## 
+### 3. Public methods build up in `budgetgetController `
+
+
 
 ### Demo code on GitHub:
 
