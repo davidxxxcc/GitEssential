@@ -10,11 +10,11 @@
 
 ![](/assets/js-31)
 
-### 2. Data model build up in `budgetgetController `
+### 2. Data model build up in `budgetgetController`
 
 Let's set up a constructor `Expense`and `Income` and its prototype method to define every record.
 
-`data `object collect all types of data including `exp[] `and `inc[]`.
+`data`object collect all types of data including `exp[]`and `inc[]`.
 
 ```
 // Expense contructor
@@ -65,10 +65,17 @@ var calculateTotal = function(type) {
     });
     data.totals[type] = sum;
 };
-    
 ```
 
-### 3. Public methods build up in `budgetgetController `
+### 3. Public methods build up in `budgetgetController`
+
+We can define any public method in `return `scope so that other outside function can access.
+
+```
+return {
+    
+}
+```
 
 
 
