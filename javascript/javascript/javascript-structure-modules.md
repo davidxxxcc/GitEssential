@@ -12,9 +12,7 @@
 
 ### 2. Data model build up
 
-Let's set up a constructor `Expense`and `Income ` and its prototype method to define every record.
-
-
+Let's set up a constructor `Expense`and `Income` and its prototype method to define every record.
 
 ```
 // Expense contructor
@@ -34,7 +32,8 @@ Expense.prototype.calcPercentage = function(totalIncome) {
 };
 
 Expense.prototype.getPercentage = function() {
-return this.percentage;
+    return this.percentage;
+};
 
 // Income contructor
 var Income = function(id, description, value) {
@@ -43,7 +42,7 @@ var Income = function(id, description, value) {
     this.value = value;
 };
 
-}
+
 ```
 
 ## 
