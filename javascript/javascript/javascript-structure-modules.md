@@ -69,15 +69,29 @@ var calculateTotal = function(type) {
 
 ### 3. Public methods build up in `budgetgetController`
 
-We can define any public method in `return `scope so that other outside function can access.
+We can define any public method in `return`scope so that other outside function can access.
 
 ```
 return {
+    addItem: function(type, des, val) {
+        //some code
+        //Create new item based on 'inc' or 'exp' type
+        if (type === 'exp') {
+            newItem = new Expense(ID, des, val);
+        } else if (type === 'inc') {
+            newItem = new Income(ID, des, val);
+        }
+         //Push it into our data structure
+        data.allItems[type].push(newItem);
+        //Reutrn the new element
+        return newItem;
+        
+    },
     
+    
+
 }
 ```
-
-
 
 ### Demo code on GitHub:
 
