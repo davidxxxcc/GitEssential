@@ -12,7 +12,7 @@
 
 ### 2. Data model build up
 
-Let's set up a constructor Expense to define every
+Let's set up a constructor `Expense`and `Income`to define every
 
 ```
 // Expense contructor
@@ -43,8 +43,6 @@ var Income = function(id, description, value) {
 
 }
 ```
-
-
 
 ## 
 
