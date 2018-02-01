@@ -146,7 +146,7 @@ return {
 
 ### 5. Global controller in `controller`
 
-We can use the parameter from `budgetController`& `UIController`as long as we pass these functions to `controller`module.We define the controller module inculding event lister, update the budget, update percentage, controll adding & deleting item and initialize the application.
+We can use the parameter from `budgetController`& `UIController`as long as we pass these functions to `controller`module. We use `UICtrl `and `budgetCtrl` to represent these two functions. We define the controller module inculding event lister, update the budget, update percentage, controll adding & deleting item and initialize the application.
 
 ```
 var setupEventListeners = function() {
@@ -160,6 +160,20 @@ var setupEventListeners = function() {
     document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
     document.querySelector(DOM.inputType).addEventListener('change',UICtrl.changedType);
 };
+
+  var updatePercentages = function() {
+        
+        // 1. Calculate percentages
+        budgetCtrl.calculatePercentages();
+        
+        // 2. Read percentages from the budget controller
+        var percentages = budgetCtrl.getPercentage();
+        console.log(percentages);
+        
+        // .3 Update the UI with the new percentages
+        UICtrl.displayPercentages(percentages);
+    };
+
 ```
 
 ### Demo code on GitHub:
