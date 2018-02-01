@@ -85,10 +85,14 @@ return {
         data.allItems[type].push(newItem);
         //Reutrn the new element
         return newItem;
-        
+
+    },
+    deleteItem: function(type, id) {
+        //some code
     },
     
-    
+
+
 
 }
 ```
