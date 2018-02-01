@@ -10,13 +10,7 @@
 
 
 
-
-
-
-
 ### Demo code on GitHub:
 
 [https://github.com/davidxxxcc/BudgetyApp](https://github.com/davidxxxcc/BudgetyApp)
-
-
 
