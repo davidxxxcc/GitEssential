@@ -139,34 +139,28 @@ return {
         deleteListItem: function(selectorID) {
                 //some code
         },
-        
+
 
 }
 ```
 
 ### 5. Global controller in `controller`
 
-We can use the parameter from `budgetController `& `UIController `as long as we pass these functions to `controller `module.We define the controller module inculding event lister, update the budget, update percentage, controll adding & deleting item and initialize the application.
+We can use the parameter from `budgetController`& `UIController`as long as we pass these functions to `controller`module.We define the controller module inculding event lister, update the budget, update percentage, controll adding & deleting item and initialize the application.
 
 ```
 var setupEventListeners = function() {
-var DOM = UICtrl.getDOMstrings();
-        
-        document.querySelector(DOM.inputBtn).addEventListener('click', ctrlAddItem);
-        
-        document.addEventListener('keypress', function(event){
-            if(event.keyCode === 13 || event.which === 13) {
-                ctrlAddItem();
-            }
-        });
-        
-        document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
-        
-        document.querySelector(DOM.inputType).addEventListener('change',UICtrl.changedType);
+    var DOM = UICtrl.getDOMstrings();
+    document.querySelector(DOM.inputBtn).addEventListener('click', ctrlAddItem);
+    document.addEventListener('keypress', function(event){
+        if(event.keyCode === 13 || event.which === 13) {
+            ctrlAddItem();
+        }
+    });
+    document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
+    document.querySelector(DOM.inputType).addEventListener('change',UICtrl.changedType);
 };
 ```
-
-
 
 ### Demo code on GitHub:
 
