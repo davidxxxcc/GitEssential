@@ -146,7 +146,7 @@ return {
 
 ### 5. Global controller in `controller`
 
-We can use the parameter from `budgetController`& `UIController`as long as we pass these functions to `controller`module. We use `UICtrl `and `budgetCtrl` to represent these two functions. We define the controller module inculding event lister, update the budget, update percentage, controll adding & deleting item and initialize the application.
+We can use the parameter from `budgetController`& `UIController`as long as we pass these functions to `controller`module. We use `UICtrl`and `budgetCtrl` to represent these two functions. We define the controller module inculding event lister, update the budget, update percentage, controll adding & deleting item and initialize the application.
 
 ```
 var setupEventListeners = function() {
@@ -161,18 +161,44 @@ var setupEventListeners = function() {
     document.querySelector(DOM.inputType).addEventListener('change',UICtrl.changedType);
 };
 
-  var updatePercentages = function() {
+var updatePercentages = function() {
+
+    // 1. Calculate percentages
+    budgetCtrl.calculatePercentages();
+
+    // 2. Read percentages from the budget controller
+    var percentages = budgetCtrl.getPercentage();
+    console.log(percentages);
+
+    // .3 Update the UI with the new percentages
+    UICtrl.displayPercentages(percentages);    
+};
+
+var ctrlAddItem = function() {
+    var input, newItem;
+    
+    // 1. Get the fieled input data
+    input = UICtrl.getInput();
+    if(input.description !== "" && !isNaN(input.value) && input.value > 0){
         
-        // 1. Calculate percentages
-        budgetCtrl.calculatePercentages();
+        // 2. Add the item to the budget controller
+        newItem = budgetCtrl.addItem(input.type, input.description, input.value);
+
+        // 3. Add the item to the UI
+        UICtrl.addListItem(newItem, input.type);
+
+        // 4. Clear the fields
+        UICtrl.clearFields();
+
+        // 5. calculate and update budget
+        updateBudget();
         
-        // 2. Read percentages from the budget controller
-        var percentages = budgetCtrl.getPercentage();
-        console.log(percentages);
-        
-        // .3 Update the UI with the new percentages
-        UICtrl.displayPercentages(percentages);
-    };
+        // 6. Calculate and update percentages
+        updatePercentages();
+    }
+};
+
+
 
 ```
 
