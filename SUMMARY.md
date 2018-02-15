@@ -3,6 +3,7 @@
 ## 團隊簡介
 
 * [團隊簡介](README.md)
+* [Git- ignore file](git-ignore-file.md)
 
 ## 專案 簡介
 
