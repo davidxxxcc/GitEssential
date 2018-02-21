@@ -3,7 +3,6 @@
 ## 團隊簡介
 
 * [團隊簡介](README.md)
-* [Git- ignore file](git-ignore-file.md)
 
 ## 專案 簡介
 
@@ -54,4 +53,5 @@
 * [Git- Review File Change ](wang-zhan-pei-zhi/git-review-file-change.md)
 * [Git- Moving and Renaming](wang-zhan-pei-zhi/git-moving-and-renaming.md)
 * [Git- Undoing working directory changes](git-undoing-working-directory-changes.md)
+* [Git- ignore file](git-ignore-file.md)
 
